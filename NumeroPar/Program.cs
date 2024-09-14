@@ -5,25 +5,44 @@ class Program
 {
     static void Main (string[] args)
     {
+        int numero;
+        string? dato = string.Empty;
+
         do 
         {
-            int n;
-            Console.Write("Ingrese un numero: ");
-
-            n = Convert.ToInt32(Console.ReadLine());
-
-            if (n % 2 == 0)
+             
+           Console.Write("Ingrese un numero entero o S para salir: ");
+           dato = Console.ReadLine();
+               
+               
+           if (dato.ToLower() == "s")
+           {
+                continue;
+           }
+                     
+            if ( int.TryParse(dato, out numero))
             {
-                Console.WriteLine($"El numero {n}, es par.");
+                if (numero % 2 == 0)
+                {
+                    Console.WriteLine($"El numero {numero}, es par.");
+                }
+                else
+                {
+                    Console.WriteLine($"El numero {numero}, es impar.");
+                }
+
             }
             else
             {
-                Console.WriteLine($"El numero {n}, es impar.");
+                Console.WriteLine($"Lo que ingresaste:{numero} no es un numero entero...");
             }
 
             
-        }while (true);
-        
+            
+        }while (dato.ToLower() != "s");
+
+        Console.WriteLine("Programa terminado...");
+
     }
 
     //Procedimiento para pedir datos
