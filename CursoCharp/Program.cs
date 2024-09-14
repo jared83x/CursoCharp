@@ -1,13 +1,16 @@
 ﻿
 //Bienvenidos al curso de Csharp
+class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+        TiposNumericos();
+    }
 
-Console.WriteLine("Hello, World!");
-
-//Comentarios en Csharp
-
-/*
- Comentarios en 
-varias lineas
- */
-
-
+    private static void TiposNumericos()
+    {
+        
+        
+    }
+}

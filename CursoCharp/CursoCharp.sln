@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCharp", "CursoCharp.csproj", "{ADE75C53-BF51-4F71-92CA-15F05055593D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejercicio01", "Ejercicio01", "{ACE77AAD-F985-4010-8455-C108E8AA3D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeroPar", "..\NumeroPar\NumeroPar.csproj", "{AD05B526-AA23-4E5E-981D-D48ACDD1D2C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADE75C53-BF51-4F71-92CA-15F05055593D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE75C53-BF51-4F71-92CA-15F05055593D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE75C53-BF51-4F71-92CA-15F05055593D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE75C53-BF51-4F71-92CA-15F05055593D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD05B526-AA23-4E5E-981D-D48ACDD1D2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD05B526-AA23-4E5E-981D-D48ACDD1D2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD05B526-AA23-4E5E-981D-D48ACDD1D2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD05B526-AA23-4E5E-981D-D48ACDD1D2C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD05B526-AA23-4E5E-981D-D48ACDD1D2C2} = {ACE77AAD-F985-4010-8455-C108E8AA3D33}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0571654-C165-432C-8DC7-5804E4FC3839}
+	EndGlobalSection
+EndGlobal
