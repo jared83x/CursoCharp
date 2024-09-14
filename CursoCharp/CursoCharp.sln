@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCharp", "CursoCharp.cs
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejercicio01", "Ejercicio01", "{ACE77AAD-F985-4010-8455-C108E8AA3D33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeroPar", "..\NumeroPar\NumeroPar.csproj", "{AD05B526-AA23-4E5E-981D-D48ACDD1D2C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumeroPar", "..\NumeroPar\NumeroPar.csproj", "{AD05B526-AA23-4E5E-981D-D48ACDD1D2C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejercicio02", "Ejercicio02", "{57737201-FD69-45FD-A2BF-7EDDA0F07D90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeroMayor", "..\NumeroMayor\NumeroMayor.csproj", "{D774D4DB-C5E5-46BC-921F-90C32299A015}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +27,17 @@ Global
 		{AD05B526-AA23-4E5E-981D-D48ACDD1D2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD05B526-AA23-4E5E-981D-D48ACDD1D2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD05B526-AA23-4E5E-981D-D48ACDD1D2C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D774D4DB-C5E5-46BC-921F-90C32299A015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D774D4DB-C5E5-46BC-921F-90C32299A015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D774D4DB-C5E5-46BC-921F-90C32299A015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D774D4DB-C5E5-46BC-921F-90C32299A015}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AD05B526-AA23-4E5E-981D-D48ACDD1D2C2} = {ACE77AAD-F985-4010-8455-C108E8AA3D33}
+		{D774D4DB-C5E5-46BC-921F-90C32299A015} = {57737201-FD69-45FD-A2BF-7EDDA0F07D90}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0571654-C165-432C-8DC7-5804E4FC3839}
